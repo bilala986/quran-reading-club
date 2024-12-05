@@ -1,0 +1,1944 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/* ******************************************** MY CODE *******************************************/
+
+body {
+    background-image: linear-gradient(white, lightgray, white, lightgray);
+    font-family: Rubik;
+}
+
+/* ******************************************** GENERAL *******************************************/
+
+
+.text-link {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 10px;
+}
+
+.quran-pic1 {
+    display: none;
+}
+
+.quran-pic2 {
+    display: none;
+}
+
+.quran-pic3 {
+    display: none;
+}
+
+.logo-main5 {
+    display: none;
+}
+
+.footer-para {
+    display: none;
+    /*margin: 25px;
+    text-align: justify;
+    color: white;
+    line-height: 2;*/
+}
+
+@media only screen and (min-width: 768px) {
+    .text-link:hover {
+        text-decoration: underline;
+        color: orange;
+        transition: color, text-decoration, 0.1s;
+    }
+    
+    .quran-pic1 {
+        display: none;
+    }
+    
+    .quran-pic2 {
+        display: none;
+    }
+    
+    quran-pic3 {
+        display: none;
+    }
+    
+    .logo-main5 {
+        display: none;
+    }
+
+    footer p {
+        display: none;
+        /*margin: 25px;
+        text-align: justify;
+        color: white;
+        line-height: 2;*/
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .text-link {
+        text-decoration: none;
+        color: darkred;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .wrapper {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+/* ******************************************** HEADER - MOBILE **********************************/
+
+
+@media only screen and (max-width: 425px) {
+    header {
+        margin-top: 25px;
+        margin-bottom: 100px;
+    }
+
+    header img {
+        display: block; /*Changes the image to a block-level elements*/
+        margin: 0 auto; /*Centers the image horizontally*/
+        width: 100px;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        text-align: center;
+        margin: 30px 10px 30px 10px;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        padding: 0 0px;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: white;
+        background-color: gray;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 13px;
+        font-weight: normal;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    header {
+        margin-top: 25px;
+        margin-bottom: 100px;
+    }
+
+    header img {
+        display: block; /*Changes the image to a block-level elements*/
+        margin: 0 auto; /*Centers the image horizontally*/
+        width: 100px;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        text-align: center;
+        margin: 30px;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        padding: 0 5px;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: white;
+        background-color: gray;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 13px;
+        font-weight: normal;
+    }
+}
+
+
+
+/* ******************************************** HEADER - TABLET **********************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    header {
+        margin-top: 25px;
+        margin-bottom: 100px;
+    }
+    
+    header img {
+        float: left;
+        width: 100px;
+        height: auto;
+        margin: 0px 30px 30px 30px;
+        -webkit-transition: width, height, margin, 0.5s;
+    }
+    
+    header img:hover {
+        width: 110px;
+        height: auto;
+        margin: 2px 32px 32px 32px;
+        transition: width, height, margin, 0.5s;
+    }
+    
+    header nav {
+        width: auto;
+        display: grid;
+    }
+
+    header nav ul {
+        margin: 40px;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        align-content: center;
+        padding: 0 15px;
+        float: right;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: white;
+        background-color: #BEBEBE;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: normal;
+        height: auto;
+        width: auto;
+        -webkit-transition: background-color, padding 0.8s;
+    }
+    
+    header nav ul li a:hover {
+        background-color: turquoise;
+        padding: 15px;
+        transition: background-color, padding, 0.5s;
+    }
+}
+
+
+/* ******************************************** HEADER - LAPTOP **********************************/
+
+@media only screen and (min-width: 1024px) {
+    
+    header {
+        margin-top: 25px;
+        margin-bottom: 75px;
+    }
+    
+    header img {
+        float: left;
+        width: 100px;
+        height: auto;
+        margin: 0px 30px 30px 75px;
+        -webkit-transition: width, height, margin, 0.5s;
+    }
+    
+    header img:hover {
+        width: 110px;
+        height: auto;
+        margin: 2px 32px 32px 77px;
+        transition: width, height, margin, 0.5s;
+    }
+    
+    header nav {
+        width: auto;
+        display: grid;
+    }
+
+    header nav ul {
+        margin: 40px;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        align-content: center;
+        padding: 0 20px;
+        float: right;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: white;
+        background-color: #BEBEBE;
+        padding: 20px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: normal;
+        height: auto;
+        width: auto;
+        -webkit-transition: background-color, padding 0.8s;
+    }
+    
+    header nav ul li a:hover {
+        background-color: turquoise;
+        padding: 25px;
+        transition: background-color, padding, 0.5s;
+    }
+}
+
+/* ******************************************** BANNER - MOBILE **********************************/
+
+
+.banner {
+    background-color: #7E7C83;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.banner .banner-text {
+    color: white;
+    padding: 27px;
+}
+
+.banner .banner-text h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+.banner .banner-text h4 {
+    font-size: 16px;
+    line-height: 2.2;
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+}
+
+
+
+
+.banner a {
+    text-decoration: none;
+}
+
+.banner .about-box {
+    background-color: turquoise;
+    margin: 0 auto;
+    margin: 7.5% 40px 40px 40px;
+    border-radius: 10px;
+}
+
+.banner a .about-box h4 {
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ******************************************** BANNER - TABLET **********************************/
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .banner .about-box {
+        background-color: turquoise;
+        margin: 0 auto;
+        margin: 7.5% 40px 40px 40px;
+        border-radius: 10px;
+    }
+
+    .banner a .about-box h4 {
+        text-align: center;
+        padding: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        -webkit-transition: padding 0.5s;
+    }
+    
+    .banner .about-box:hover {
+        background-color: #36454F;
+        transition: background-color, 0.5s;
+    }
+
+    .banner a .about-box h4:hover {
+        padding: 40px;
+        transition: padding, 0.5s;
+    }
+    
+    
+}
+
+/* ******************************************** BANNER - LAPTOP **********************************/
+
+@media only screen and (min-width: 1024px) {
+    
+    .banner {
+        background-image: url(img/qurans.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 0px;
+        height: auto;
+        padding-bottom: 100px;
+        display: grid;
+    }
+    
+    .banner .banner-text {
+        background-color: lightgray;
+        opacity: 0.9;
+        padding: 27px;
+        margin: 75px 75px 20px 75px;
+        color: darkblue;
+    }
+    
+    .banner .banner-text h1 {
+        font-size: 33px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1.7;
+    }
+
+    .banner .banner-text h4 {
+        font-size: 20px;
+        line-height: 2.2;
+        text-align: center;
+        padding-top: 40px;
+        font-weight: 500;
+    }
+    
+    .banner .about-box {
+        background-color: turquoise;
+        margin: 0 auto;
+        margin: 7.5% 75px 40px 75px;
+        border-radius: 10px;
+    }
+
+    .banner a .about-box h4 {
+        text-align: center;
+        padding: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        -webkit-transition: padding 0.5s;
+    }
+    
+    .banner .about-box:hover {
+        background-color: #36454F;
+        transition: background-color, 0.5s;
+    }
+
+    .banner a .about-box h4:hover {
+        padding: 40px;
+        transition: padding, 0.5s;
+    }
+}
+
+
+/* ******************************************** MAIN 2 - MOBILE **********************************/
+
+
+.main2 {
+    background-color: #708090;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.main2 .main2-text {
+    color: white;
+    padding: 27px;
+}
+
+.main2 .main2-text h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+.main2 .main2-text h4 {
+    font-size: 16px;
+    line-height: 2.2;
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+}
+
+.main2 a {
+    text-decoration: none;
+}
+
+
+.main2 .classes-box {
+    background-color: turquoise;
+    margin: 0 auto;
+    margin: 7.5% 40px 40px 40px;
+    border-radius: 10px;
+}
+
+.main2 a .classes-box h4 {
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+/* ******************************************** MAIN 2 - TABLET **********************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
+    
+    .main2 .classes-box {
+        -webkit-transition: background-color, 0.5s
+    }
+    
+    .main2 .classes-box:hover {
+        background-color: #36454F;
+        transition: background-color, 0.5s;
+    }
+
+    .main2 a .classes-box h4 {
+        padding: 30px;
+        -webkit-transition: padding, 0.5s;
+    }
+    
+    .main2 a .classes-box h4:hover {
+        padding: 40px;
+        transition: padding, 0.5s
+    }    
+}
+
+/* ******************************************** MAIN 2 - LAPTOP **********************************/
+
+
+
+@media only screen and (min-width: 1300px) {
+    .main2 {
+        background-color: #708090;
+        width: 50%;
+        float: left;
+        margin-top: 25px;
+        border-radius: 0px;
+        height: 512px;
+        padding-bottom: 25px;
+    }
+    
+    .main2 .classes-box {
+        background-color: turquoise;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    
+    .main2 .main2-text h4 {
+        font-size: 17px;
+        line-height: 2.2;
+        text-align: justify;
+        padding: 40px 10px 5px 10px;
+        font-weight: normal;
+    }
+    
+    .quran-pic1 {
+        display: inline-block;
+        margin-top: 25px;
+        float: right;
+        width: 50%;
+        height: 537px;
+    }
+    
+    .main2 .classes-box {
+        -webkit-transition: background-color, 0.5s
+    }
+    
+    .main2 .classes-box:hover {
+        background-color: #36454F;
+        transition: background-color, 0.5s;
+    }
+
+    .main2 a .classes-box h4 {
+        padding: 30px;
+        -webkit-transition: padding, 0.5s;
+    }
+    
+    .main2 a .classes-box h4:hover {
+        padding: 40px;
+        transition: padding, 0.5s
+    }
+}
+
+/* ******************************************** MAIN 3 - MOBILE **********************************/
+
+
+.main3 {
+    background-color: #6B8E8D;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.main3 .main3-text {
+    color: white;
+    padding: 27px;
+}
+
+.main3 .main3-text h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+.main3 .main3-text h4 {
+    font-size: 16px;
+    line-height: 2.2;
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+}
+
+.main3 a {
+    text-decoration: none;
+}
+
+
+.main3 .teachers-box {
+    background-color: turquoise;
+    margin: 0 auto;
+    margin: 7.5% 40px 40px 40px;
+    border-radius: 10px;
+}
+
+.main3 a .teachers-box h4 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ******************************************** MAIN 3 - TABLET **********************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
+    
+    .main3 .teachers-box {
+        -webkit-transition: background-color, 0.5s
+    }
+    
+    .main3 .teachers-box:hover {
+        background-color: #36454F;
+        transition: background-color, 0.5s;
+    }
+
+    .main3 a .teachers-box h4 {
+        padding: 30px;
+        -webkit-transition: padding, 0.5s;
+    }
+    
+    .main3 a .teachers-box h4:hover {
+        padding: 40px;
+        transition: padding, 0.5s
+    }
+    
+    
+    
+}
+
+/* ******************************************** MAIN 3 - LAPTOP **********************************/
+
+@media only screen and (min-width: 1300px) {
+    .main3 {
+        background-color: #6B8E8D;
+        width: 50%;
+        border-radius: 0px;
+        margin-top: 0px;
+        float: right;
+        height: 512px;
+        padding-bottom: 25px;
+    }
+    
+    .main3 .main3-text h4 {
+        font-size: 17px;
+        line-height: 2.2;
+        text-align: justify;
+        padding: 40px 10px 10px 10px;
+        font-weight: normal;
+    }
+    
+    .main3 .teachers-box {
+        background-color: turquoise;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    
+    .quran-pic2 {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        height: 537px;
+    }
+    
+    .main3 .teachers-box {
+        -webkit-transition: background-color, 0.5s
+    }
+    
+    .main3 .teachers-box:hover {
+        background-color: #36454F;
+        transition: background-color, 0.5s;
+    }
+
+    .main3 a .teachers-box h4 {
+        padding: 30px;
+        -webkit-transition: padding, 0.5s;
+    }
+    
+    .main3 a .teachers-box h4:hover {
+        padding: 40px;
+        transition: padding, 0.5s
+    }
+}
+
+/* ******************************************** MAIN 4 - MOBILE **********************************/
+
+
+.main4 {
+    background-color: #756A67;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.main4 .main4-text {
+    color: white;
+    padding: 27px;
+}
+
+.main4 .main4-text h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+.main4 .main4-text h4 {
+    font-size: 16px;
+    line-height: 2.2;
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+}
+
+.main4 a {
+    text-decoration: none;
+}
+
+
+.main4 .picture-box {
+    background-color: turquoise;
+    margin: 0 auto;
+    margin: 7.5% 40px 40px 40px;
+    border-radius: 10px;
+}
+
+.main4 a .picture-box h4 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ******************************************** MAIN 4 - TABLET **********************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
+    
+    .main4 .picture-box {
+        -webkit-transition: background-color, 0.5s
+    }
+    
+    .main4 .picture-box:hover {
+        background-color: #36454F;
+        transition: background-color, 0.5s;
+    }
+
+    .main4 a .picture-box h4 {
+        padding: 30px;
+        -webkit-transition: padding, 0.5s;
+    }
+    
+    .main4 a .picture-box h4:hover {
+        padding: 40px;
+        transition: padding, 0.5s
+    }
+}
+
+/* ******************************************** MAIN 4 - LAPTOP **********************************/
+
+@media only screen and (min-width: 1300px) {
+    .main4 {
+        background-color: #756A67;
+        width: 50%;
+        float: left;
+        margin-top: 0px;
+        border-radius: 0px;
+        height: 512px;
+        padding-bottom: 25px;
+        margin-bottom: 75px;
+    }
+    
+    .quran-pic3 {
+        display: inline-block;
+        float: right;
+        width: 50%;
+        height: 537px;
+        margin-bottom: 75px;
+    }
+    
+    .main4 .main4-text h4 {
+        font-size: 17px;
+        line-height: 2.2;
+        text-align: justify;
+        padding: 40px 10px 10px 10px;
+        font-weight: normal;
+    }
+    
+    .main4 .picture-box {
+        background-color: turquoise;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    
+    .main4 .picture-box {
+        -webkit-transition: background-color, 0.5s
+    }
+    
+    .main4 .picture-box:hover {
+        background-color: #36454F;
+        transition: background-color, 0.5s;
+    }
+
+    .main4 a .picture-box h4 {
+        padding: 30px;
+        -webkit-transition: padding, 0.5s;
+    }
+    
+    .main4 a .picture-box h4:hover {
+        padding: 40px;
+        transition: padding, 0.5s
+    }
+}
+
+/* ******************************************** MAIN 5 - MOBILE **********************************/
+
+
+.main5 {
+    background-color: #817D68;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.main5 .main5-text {
+    color: white;
+    padding: 27px;
+}
+
+.main5 .main5-text h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+.main5 .main5-text h4 {
+    font-size: 16px;
+    line-height: 2.2;
+    text-align: justify;
+    padding-top: 40px;
+    font-weight: normal;
+}
+
+.main5 a {
+    text-decoration: none;
+}
+
+
+.main5 .classes-box {
+    background-color: turquoise;
+    margin: 0 auto;
+    margin: 7.5% 40px 40px 40px;
+    border-radius: 10px;
+}
+
+.main5 a .classes-box h4 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ******************************************** MAIN 5 - TABLET **********************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
+    
+    .main5 .classes-box {
+        -webkit-transition: background-color, 0.5s
+    }
+    
+    .main5 .classes-box:hover {
+        background-color: #36454F;
+        transition: background-color, 0.5s;
+    }
+
+    .main5 a .classes-box h4 {
+        padding: 30px;
+        -webkit-transition: padding, 0.5s;
+    }
+    
+    .main5 a .classes-box h4:hover {
+        padding: 40px;
+        transition: padding, 0.5s
+    }
+    
+}
+
+/* ******************************************** MAIN 5 - LAPTOP **********************************/
+
+@media only screen and (min-width: 1300px) {
+    .main5 {
+        background-color: #817D68;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+        height: auto;
+        padding-bottom: 25px;
+    }
+    
+    .main5 .main5-text {
+        color: white;
+        padding: 27px;
+    }
+
+    .main5 .main5-text h1 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: normal;
+        line-height: 1.7;
+        padding-top: 20px;
+    }
+    
+    .main5 .classes-box {
+        background-color: turquoise;
+        margin: 0 auto;
+        margin: 7.5% 145px 145px 145px;
+        border-radius: 10px;
+    }
+
+    .main5 a .classes-box h4 {
+        text-align: center;
+        color: white;
+        padding: 30px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .main5 .main5-text h4 {
+        font-size: 16px;
+        line-height: 2.2;
+        text-align: justify;
+        padding: 40px 100px 20px 100px;
+        font-weight: normal;
+    }
+    
+    .main5 .classes-box {
+        -webkit-transition: background-color, 0.5s
+    }
+    
+    .main5 .classes-box:hover {
+        background-color: #36454F;
+        transition: background-color, 0.5s;
+    }
+
+    .main5 a .classes-box h4 {
+        padding: 30px;
+        -webkit-transition: padding, 0.5s;
+    }
+    
+    .main5 a .classes-box h4:hover {
+        padding: 40px;
+        transition: padding, 0.5s
+    }
+    
+}
+
+
+/* ******************************************** MAIN ABOUT - MOBILE **********************************/
+
+.main-about {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-about h2 {
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 30px 30px 30px;
+}
+
+.main-about p {
+    line-height: 1.5;
+    font-size: 17.5px;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.main-about .last-p {
+    padding-bottom: 75px;
+}
+
+/* ******************************************** MAIN ABOUT - TABLET **********************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-about {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    .main-about h2 {
+        font-size: 25px;
+        padding: 10px 30px 55px 30px;
+    }
+    
+    .main-about p {
+        line-height: 1.6;
+        font-size: 17.5px;
+        padding-bottom: 40px;
+    }
+    
+    .main-about .last-p {
+        padding-bottom: 75px;
+    }
+
+}
+
+/* ******************************************** MAIN ABOUT - LAPTOP *****************************/
+
+@media only screen and (min-width: 1024px) {
+    .main-about {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .main-about h2 {
+        font-size: 27.5px;
+        padding: 10px 30px 55px 30px;
+    }
+    
+     .main-about p {
+        text-align: justify;
+        line-height: 1.7;
+        font-size: 19px;
+        padding: 50px;
+        column-count: 3;
+        column-gap: 50px;
+    }
+    
+    .main-about .last-p {
+        padding-bottom: 90px;
+    }
+}
+
+
+/* ******************************************** MAIN TEACHERS - MOBILE ************************/
+
+.main-teacher {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+
+.teacher-title {
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 50px 50px 50px;
+    color: black;
+}
+
+.teacher-left h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.teacher-left p {
+    padding: 0px 40px 40px 40px;
+    text-align: justify;
+    line-height: 2;
+    font-size: 17px;
+}
+
+iframe {
+    display: none;
+}
+
+.main-teacher img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.luhaidan {
+    background-color: #7E7C83;
+}
+
+.salman {
+    background-color: #708090;
+}
+
+.dosari {
+    background-color: #6B8E8D;
+}
+
+.mishary {
+    background-color: #756A67;
+}
+
+/* ******************************************** MAIN TEACHERS - TABLET ************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-teacher {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    .teacher-title {
+        text-align: center;
+        font-size: 24px;
+        padding: 10px 50px 50px 50px;
+        color: black;
+    }
+    
+    iframe {
+        display: inline-block;
+    }
+    
+    .teacher {
+        margin-bottom: 250px;
+    }
+    
+    .teacher-left h2 {
+        text-align: center;
+        padding: 40px;
+        font-size: 22px;
+    }
+    
+    .teacher-left p {
+        padding: 0px 50px 50px 50px;
+        text-align: justify;
+        line-height: 2;
+        font-size: 18px;
+    }
+    
+    .main-teacher img {
+        width: 39.6%;
+        float: left;
+        height: 200px;
+        padding: 0px;
+    }
+    
+    .luhaidan-vid {
+        width: 60.4%;
+        height: 200px;
+        float: right;
+    }
+    
+    .salman-vid {
+        width: 60.4%;
+        height: 200px;
+        float: right;
+    }
+    
+    .dosari-vid {
+        width: 60.4%;
+        height: 200px;
+        float: right;
+    }
+    
+    .mishary-vid {
+        width: 60.4%;
+        height: 200px;
+        float: right;
+    }
+}
+
+/* ******************************************** MAIN TEACHERS - MOBILE ************************/
+
+@media only screen and (min-width: 1024px) {
+    
+    .teacher-title {
+        text-align: center;
+        font-size: 30px;
+        padding: 10px 50px 50px 50px;
+        color: black;
+    }
+    
+    .main-teacher {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    iframe {
+        display: inline-block;
+    }
+    
+    .teacher {
+        margin-bottom: 400px;
+    }
+    
+    .teacher-left {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .teacher-left h2 {
+        text-align: center;
+        padding: 55px;
+        font-size: 24px;
+    }
+    
+    .teacher-left p {
+        padding: 0px 60px 60px 60px;
+        text-align: justify;
+        line-height: 2;
+        font-size: 18px;
+    }
+    
+    .main-teacher img {
+        width: 40%;
+        float: left;
+        height: 350px;
+        margin-bottom: 40px;
+        
+    }
+    
+    .luhaidan-vid {
+        width: 60%;
+        float: right;
+        height: 350px;
+        margin-bottom: 40px;
+    }
+    
+    .salman-vid {
+        width: 60%;
+        float: right;
+        height: 350px;
+        margin-bottom: 40px;
+    }
+    
+    .dosari-vid {
+        width: 60%;
+        float: right;
+        height: 350px;
+        margin-bottom: 40px;
+    }
+    
+    .mishary-vid {
+        width: 60%;
+        float: right;
+        height: 350px;
+        margin-bottom: 40px;
+    }
+    
+    
+}
+
+/* ******************************************** MAIN CLASSES - MOBILE *******************************/
+
+.main-classes {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-classes h1 {
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 30px 55px 30px;
+}
+
+/*********************classes intro**********************/
+
+.classes-intro {
+    background-color: #7E7C83;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.classes-intro h2 {
+    color: white;
+    padding-top: 35px;
+    line-height: 1.5;
+    text-align: justify;
+    text-align: center;
+    font-size: 19px;
+}
+
+.classes-intro p {
+    color: white;
+    padding: 27px 35px 40px 35px;
+    line-height: 2.2;
+    text-align: justify;
+}
+
+/*********************classes levels**********************/
+
+.classes-levels {
+    background-color: #708090;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.classes-levels h2 {
+    color: white;
+    padding-top: 35px;
+    line-height: 1.5;
+    text-align: justify;
+    text-align: center;
+    font-size: 19px;
+}
+
+.classes-levels p {
+    color: white;
+    padding: 27px 35px 20px 35px;
+    line-height: 2.2;
+    text-align: justify;
+}
+
+.classes-levels ul {
+    padding: 0px 30px 10px 30px;
+    color: white;
+    line-height: 2.2;
+    text-align: justify;
+}
+
+.classes-levels li {
+    padding: 0px 20px 25px 20px;
+}
+
+
+/*********************classes structure**********************/
+
+
+.classes-structure {
+    background-color: #6B8E8D;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.classes-structure h2 {
+    color: white;
+    padding-top: 35px;
+    line-height: 1.5;
+    text-align: justify;
+    text-align: center;
+    font-size: 19px;
+}
+
+.classes-structure p {
+    color: white;
+    padding: 27px 35px 20px 35px;
+    line-height: 2.2;
+    text-align: justify;
+}
+
+.classes-structure ul {
+    padding: 0px 30px 10px 30px;
+    color: white;
+    line-height: 2.2;
+    text-align: justify;
+}
+
+.classes-structure li {
+    padding: 0px 20px 25px 20px;
+}
+
+
+/*********************classes goals**********************/
+
+
+.classes-goals {
+    background-color: #756A67;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.classes-goals h2 {
+    color: white;
+    padding-top: 35px;
+    line-height: 1.5;
+    text-align: justify;
+    text-align: center;
+    font-size: 19px;
+}
+
+.classes-goals p {
+    color: white;
+    padding: 27px 35px 20px 35px;
+    line-height: 2.2;
+    text-align: justify;
+}
+
+.classes-goals ul {
+    padding: 0px 30px 10px 30px;
+    color: white;
+    line-height: 2.2;
+    text-align: justify;
+}
+
+.classes-goals li {
+    padding: 0px 20px 25px 20px;
+}
+
+
+/*********************classes features**********************/
+
+
+.classes-features {
+    background-color: #817D68;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.classes-features h2 {
+    color: white;
+    padding-top: 35px;
+    line-height: 1.5;
+    text-align: justify;
+    text-align: center;
+    font-size: 19px;
+}
+
+.classes-features p {
+    color: white;
+    padding: 27px 35px 20px 35px;
+    line-height: 2.2;
+    text-align: justify;
+}
+
+.classes-features ul {
+    padding: 0px 30px 10px 30px;
+    color: white;
+    line-height: 2.2;
+    text-align: justify;
+}
+
+.classes-features li {
+    padding: 0px 20px 25px 20px;
+}
+
+
+/*********************classes timings**********************/
+
+.classes-timings {
+    background-color: #859683;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.classes-timings h2 {
+    color: white;
+    padding-top: 35px;
+    line-height: 1.5;
+    text-align: justify;
+    text-align: center;
+    font-size: 19px;
+}
+
+.classes-timings p {
+    color: white;
+    padding: 27px 35px 40px 35px;
+    line-height: 2.2;
+    text-align: justify;
+}
+
+
+
+/*********************classes end**********************/
+
+.classes-end {
+    background-color: #968388;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.classes-end h2 {
+    color: white;
+    padding-top: 35px;
+    line-height: 1.5;
+    text-align: justify;
+    text-align: center;
+    font-size: 19px;
+}
+
+.classes-end p {
+    color: white;
+    padding: 27px 35px 40px 35px;
+    line-height: 2.2;
+    text-align: justify;
+}
+
+
+
+
+/* ******************************************** MAIN CLASSES - TABLET *******************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+/* ******************************************** MAIN CLASSES - LAPTOP *******************************/
+
+@media only screen and (min-width: 1024px) {
+    
+    .main-classes {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .main-classes h1 {
+        font-size: 27.5px;
+        text-align: center;
+        padding: 25px 0px 75px 0px;
+    }
+    
+    /*********************classes intro**********************/
+    
+    .classes-intro {
+        background-color: #7E7C83;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 5px;
+        height: auto;
+        margin-bottom: 25px;
+    }
+    
+    .classes-end {
+        background-color: #968388;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 5px;
+        height: auto;
+        margin-bottom: 25px;
+    }
+}
+
+
+/* ******************************************** PICTURES - MOBILE **********************************/
+
+.main-pictures {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-pictures h1 {
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 30px 55px 30px;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+}
+
+.pics img {
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.tablet-pics {
+    display: none;
+}
+
+.laptop-pics {
+    display: none;
+}
+
+.last-pic {
+    padding-bottom: 75px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-pictures {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .main-pictures h1 {
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 55px;
+    }
+    .screen-pics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .pics img {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+    
+    .tablet-last-row {
+        padding-bottom: 75px;
+    }
+    
+    .laptop-pics {
+        display: none;
+    }
+    
+}
+
+
+
+/* ******************************************** PICTURES - LAPTOP **********************************/
+
+@media only screen and (min-width: 1024px) {
+    .main-pictures {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .main-pictures h1 {
+        font-size: 27.5px;
+        text-align: center;
+        padding: 75px 0px 55px 0px;
+    }
+    
+    .screen-pics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .tablet-pics, .laptop-pics {
+        display: inline-block;
+    }
+    
+    .pics img {
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+    }
+    
+    .tablet-last-row {
+        padding-bottom: 0px;
+    }
+    
+    .last-pic {
+        padding-bottom: 0px;
+    }
+    
+    .laptop-last-row {
+        padding-bottom: 100px;
+    }
+}
+
+
+/* ******************************************** FOOTER - MOBILE **********************************/
+
+footer {
+    background-color: #000033;
+    width: 100%;
+    height: 300px;
+}
+
+footer a img {
+    display: block; /*Changes the image to a block-level elements*/
+    margin: 0 auto; /*Centers the image horizontally*/
+    width: 100px;
+    padding-top: 50px;
+}
+
+footer nav {
+    width: 100%;
+}
+
+footer nav ul {
+    text-align: center;
+    margin: 50px 30px 0px 30px;
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px 0px 10px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* ******************************************** FOOTER - TABLET **********************************/
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    footer {
+        height: 400px;
+    }
+
+    footer a img {
+        width: 125px;
+        padding-top: 75px;
+        -webkit-transition: width, padding-top, 0.5s;
+    }
+    
+    footer a img:hover {
+        width: 140px;
+        padding-top: 65px;
+        transition: width, padding-top, 0.5s;
+    }
+
+    footer nav ul li a {
+        color: white;
+        padding: 10px 10px 0px 10px;
+        font-size: 15px;
+        -webkit-transition: color, padding, font-size, 0.5s;
+    }
+    
+    footer nav ul li a:hover {
+        color: gold;
+        padding: 12px 12px 0px 12px;
+        font-size: 17px;
+        transition: color, padding, font-size, 0.5s;
+    }
+}
+
+
+
+/* ******************************************** FOOTER - LAPTOP **********************************/
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*This ensures that all floated elements are clared, allowing the footer to be pushed below*/
+
+
+@media only screen and (min-width: 1024px) {
+    footer {
+        height: auto;
+    }
+    
+    footer a img {
+        width: 125px;
+        padding-top: 75px;
+        -webkit-transition: width, paddin-top, 0.5s;
+    }
+    
+    footer a img:hover {
+        width: 140px;
+        padding-top: 65px;
+        transition: width, padding-top, 0.5s;
+    }
+    
+    footer nav {
+        padding-bottom: 75px;
+    }
+    
+    footer nav ul li a {
+        color: white;
+        padding: 10px 10px 0px 10px;
+        font-size: 15px;
+        -webkit-transition: color, padding, font-size, 0.5s;
+    }
+    
+    footer nav ul li a:hover {
+        color: gold;
+        padding: 12px 12px 0px 12px;
+        font-size: 17px;
+        transition: color, padding, font-size, 0.5s;
+    }
+    
+    footer .footer-para {
+        display: block;
+    }
+    
+    footer .footer-para .footer-p1 {
+        display: block;
+    }
+    
+    .footer-para {
+        display: block;
+        text-align: justify;
+        line-height: 2;
+        color: white;
+        padding-top: 0px;
+        margin: 55px 85px 85px 85px;
+        column-count: 3;
+        column-gap: 71px;
+    }
+}
+
+
+
+
